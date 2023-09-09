@@ -1,0 +1,154 @@
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 4.5rem;
+    color:antiquewhite;
+}
+
+.box{
+    width:30vw;
+    height:auto;
+    background-color:lightskyblue;
+    padding: 10px;
+}
+
+input{
+    padding:4px;
+    border-radius:10px;
+    border: 2px solid saddlebrown;
+    box-shadow:2px 1px 1px saddlebrown;
+    margin-right:2px;
+
+}
+input::placeholder{
+    color:darkmagenta;
+    font-size:15px;
+}
+#trans{
+    padding:4px;
+    border-radius:4px;
+}
+#trans:hover{
+    background-color:greenyellow ;
+    transition:1.1s;
+    outline: none;
+    
+}
+.bp{
+    font-size: 1.4rem;
+}
+.fa-icons{
+    color:deeppink;
+}
+.fa-clipboard{
+    color:mediumspringgreen;
+    animation-name: slide;
+    
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes slide {
+    
+    0%{
+        transform: scale(0);
+        color: coral;
+    }
+    
+    
+}
+p{
+    font-size: 1.3rem;
+}
+#output{
+    font-size: 1.4rem;
+}
+.fa-trash{
+    color:blue;
+}
+h5{
+    display: none;
+}
+
+#final{
+    color:darkkhaki;
+    font-size:12px;
+
+}
+.comments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    background-color: rgba(255, 255, 255, 0.136);
+    margin-top: 3%;
+    
+}
+.fa-comment{
+    color: whitesmoke;
+}
+
+@media (max-width:400px) {
+    h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .box{
+        width:100vw;
+        height: auto;
+        background-color: lightsalmon;
+    }
+    input{
+        padding: 5px;
+    }
+    #look{
+        color:wheat
+    }
+    .move .ee{
+        display: block;
+        animation-name:greet;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        color:whitesmoke;
+        text-shadow:1px 1px 9px whitesmoke;
+        
+    }
+    @keyframes greet {
+        0%{
+            transform:translateX(-100%);
+        }
+        100%{
+            transform: translate(20%);
+        }
+}
+.fa-comment {
+    color:red;
+    font-size: 1.2rem;
+}
+.fa-comment:hover{
+    color:chartreuse;
+}
+
+.comments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.136);
+    margin-top: 3%;
+    margin-left: 4%;
+}
+#fin{
+    margin-left: 4%;
+}
+#final{
+    color:darkkhaki;
+    font-size:15px;
+    text-align: center;
+    border:3px dashed white ;
+}
+
+}
